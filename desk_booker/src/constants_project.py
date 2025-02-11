@@ -9,3 +9,9 @@ class DeskAccomodations(Enum):
     ERGO_KEYBOARD = "ergo_keyboard"
     ERGO_MOUSE = "ergo_mouse"
     SUN_SHADES = "sun_shades"
+
+
+class DeskState(Enum):
+    AVAILABLE = "avilable"
+    SELECTED = "selected"
+    BOOKED = "booked"
